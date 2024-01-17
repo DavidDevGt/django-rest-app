@@ -138,5 +138,5 @@ if not DEBUG:
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://projects-api-seven.vercel.app/",
+    "https://projects-api-seven.vercel.app",
 ]
