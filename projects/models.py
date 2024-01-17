@@ -16,4 +16,5 @@ class Project(models.Model):
         default=Status.ACTIVE,
     )
     image_url = models.URLField(null=True, blank=True)
+    project_url = models.URLField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
