@@ -15,5 +15,5 @@ class Project(models.Model):
         choices=Status.choices,
         default=Status.ACTIVE,
     )
-    image = models.ImageField(upload_to='projects/', null=True, blank=True)
+    image_url = models.URLField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
